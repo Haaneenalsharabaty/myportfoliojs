@@ -1,0 +1,670 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.dark {
+  background-color: rgb(165 186 186);
+}
+#nav-bar.dark {
+  background-color: rgb(41 90 90);
+}
+#nav-bar3.dark2 {
+  background-color: rgb(41 90 90);
+}
+#nav-bar3.dark2 a {
+  color: aqua;
+}
+#nav-bar4.dark3 {
+  background-color: rgb(41 90 90);
+}
+#nav-bar4.dark3 a {
+  color: aqua;
+}
+#mywork1.dark3 {
+  background-color: rgb(41 90 90);
+}
+#mywork1.dark3 h3 {
+  color: aqua;
+}
+#footer.dark2 {
+  background-color: rgb(41 90 90);
+}
+
+#nav-bar.dark a {
+  color: aqua;
+}
+
+#Home.dark {
+  background: linear-gradient(rgb(255, 255, 255, 0), rgba(145, 131, 131, 0)),
+    url(pic/open_source.jpg);
+}
+#Aboutme1.dark {
+  background-color: rgb(41 90 90);
+  color: aqua;
+}
+#Aboutme1.dark h2 {
+  color: aqua;
+}
+#qulifactions.dark {
+  background-color: rgb(41 90 90);
+  color: aqua;
+}
+#qulifactions.dark h3 {
+  color: aqua;
+}
+#Testimonials.dark {
+  background-color: rgb(41 90 90);
+}
+#Testimonials.dark h3 {
+  color: aqua;
+}
+#media.dark {
+  background-color: rgb(41 90 90);
+}
+#media.dark i {
+  color: aqua;
+}
+#media.dark2 {
+  background-color: rgb(41 90 90);
+}
+#services.dark3 {
+  background-color: rgb(41 90 90);
+}
+#services.dark3 h3 {
+  color: aqua;
+}
+#par.dark3 {
+  background-color: rgb(41 90 90);
+}
+#services.dark3 p {
+  background-color: rgb(190, 218, 218);
+}
+#id.dark3 #media.dark2 i {
+  color: aqua;
+}
+
+body.dark2 {
+  background-color: rgb(41 90 90);
+}
+#media.dark3 {
+  background-color: rgb(41 90 90);
+}
+#media.dark3 i {
+  color: aqua;
+}
+body.dark3 {
+  background-color: rgb(41 90 90);
+}
+
+.label {
+  width: 50px;
+  height: 26px;
+  background-color: #111;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+.fa-moon {
+  color: aqua;
+}
+.fa-sun {
+  color: aqua;
+}
+.checkbox {
+  opacity: 0;
+}
+.checkbox:checked + .label .ball {
+  transform: translatex(24px);
+}
+.ball {
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  background-color: rgb(209, 238, 228);
+  position: absolute;
+  transition: transform 0.2s linear;
+}
+.nav-bar {
+  background-color: rgb(238, 250, 253);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  height: 12%;
+}
+.navlist ul {
+  display: flex;
+  flex-direction: row;
+}
+.navlist li {
+  margin-bottom: 1em;
+  padding: 2em;
+  font-size: 1.2em;
+  list-style: none;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: turquoise;
+  text-decoration: none;
+}
+
+.navlist li:hover {
+  color: rgb(105, 160, 185);
+  cursor: pointer;
+
+  transform: scale(1.5);
+}
+.navlist i {
+  display: none;
+}
+.logoimage img {
+  width: 35%;
+}
+.navlist a {
+  text-decoration: none;
+  color: #507776;
+}
+
+/* intro  */
+
+.Home {
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+  background: linear-gradient(rgb(255, 255, 255, 0.7), rgb(255, 255, 255, 0.63)),
+    url(pic/open_source.jpg);
+  background-size: cover;
+}
+.myimage img {
+  margin-top: 50%;
+  width: 50%;
+  height: 50%;
+  border-radius: 10%;
+}
+.myimage img:hover {
+  cursor: pointer;
+
+  transform: scale(1.5);
+}
+.text {
+  width: 70%;
+  height: 50%;
+  font-family: "Italianno", cursive;
+  color: teal;
+  border-radius: 10%;
+  margin-top: 20%;
+  margin-left: 30%;
+  background: linear-gradient(
+    rgb(227, 255, 254),
+    rgb(255, 255, 255, 0.7),
+    rgb(255, 255, 255, 0.9)
+  );
+}
+.text h1 {
+  font-size: 4em;
+
+  padding: 0.5em;
+  font-weight: bolder;
+}
+.text h3 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+}
+.text p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 0.15;
+}
+
+/* <!-- about me  --> */
+
+.Aboutme {
+  background-color: rgb(223, 253, 253);
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutMeinfo {
+  display: flex;
+  justify-content: center;
+}
+
+.titileabout h2 {
+  margin-top: 1em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  font-size: 4em;
+  font-family: "Italianno", cursive;
+  letter-spacing: 0.05em;
+  color: #507776;
+  font-weight: bolder;
+}
+
+.AboutMeinfo p {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  margin-bottom: 2em;
+  border-radius: 5%;
+  font-size: 1.5em;
+  background-color: #507776;
+  width: 80%;
+  height: 80%;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: rgb(214, 221, 221);
+}
+
+/* serivces  */
+.myservices {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services-section {
+  display: flex;
+  background-color: rgb(223, 253, 253);
+}
+.servicestitle h3 {
+  margin-top: 2em;
+  text-align: center;
+  font-family: "Italianno", cursive;
+  font-size: 4em;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+
+  color: #507776;
+}
+
+.mainservices {
+  margin-bottom: 2em;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1em;
+  padding: 1em;
+}
+
+.services1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+  padding: 2em;
+  width: 80%;
+  text-align: center;
+  background-color: rgb(190, 218, 218);
+  color: #507776;
+}
+.services1 h3 {
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
+
+/* <!-- qualification   */
+.qulifactions {
+  background-color: #507776;
+}
+.qualification {
+  display: flex;
+  flex-direction: column;
+}
+.qualification h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-family: "Italianno", cursive;
+  font-size: 4em;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  color: rgb(216, 241, 241);
+}
+
+.qulificationtitle {
+  display: flex;
+  justify-content: center;
+}
+.qulificationtitle p {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  font-size: 1.5em;
+  background-color: #507776;
+  width: 80%;
+  height: 30%;
+  text-align: center;
+  color: rgb(216, 233, 233);
+  font-family: "Times New Roman", Times, serif;
+}
+/* project */
+.myprojects {
+  background-color: #507776;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.Projects h3 {
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  text-align: center;
+  font-family: "Italianno", cursive;
+  font-size: 4em;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: rgb(214, 221, 221);
+}
+.allprojects {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+.projectpic p {
+  display: flex;
+  justify-content: center;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 25em;
+  height: 19em;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin-bottom: 2em;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-box-back h2 {
+  background-color: rgb(227, 255, 254);
+  color: teal;
+  text-align: center;
+  font-family: "Italianno", cursive;
+  border-radius: 10%;
+  letter-spacing: 0.1;
+  font-size: 3em;
+}
+.flip-box-back h4 {
+  margin-top: 1em;
+  background-color: rgb(227, 255, 254);
+  color: teal;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10%;
+  letter-spacing: 0.1;
+  font-size: 2em;
+}
+.flip-box-back {
+  background-color: #507776;
+  color: white;
+  transform: rotateY(180deg);
+}
+#test {
+  height: 19em;
+  width: 25em;
+}
+/* Testimonials */
+.Testimonials {
+  background-color: rgb(223, 253, 253);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+.imgslider {
+  display: flex;
+  justify-content: center;
+}
+.titlefeedback h3 {
+  margin-top: 0.5em;
+  text-align: center;
+  font-family: "Italianno", cursive;
+  font-size: 4em;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+  color: #507776;
+  padding-bottom: 0.5em;
+}
+
+/* footer  */
+
+.footer1 {
+  background-color: #507776;
+  display: flex;
+  flex-direction: column;
+}
+.footertitle {
+  margin-top: 4em;
+  display: flex;
+  justify-content: center;
+}
+.footertitle h2 {
+  color: rgb(216, 241, 241);
+  margin-top: 0.5em;
+  text-align: center;
+  font-family: "Italianno", cursive;
+  font-size: 4em;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+}
+.footerbody {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+.contact {
+  margin: 1em;
+}
+.contact p {
+  font-size: 2em;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(216, 241, 241);
+}
+.footerbody img {
+  width: 1em;
+}
+.form {
+  font-family: "Times New Roman", Times, serif;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: rgb(133, 202, 230);
+  border-style: solid;
+
+  background-color: rgb(193, 252, 246);
+  text-align: center;
+}
+.form input {
+  text-align: center;
+  background-color: rgb(142, 192, 192);
+  width: 99%;
+  font-size: 1.5em;
+}
+.form textarea {
+  text-align: center;
+  font-size: 2em;
+  background-color: rgb(142, 192, 192);
+  width: 99%;
+}
+.media ul {
+  margin-top: 0.8em;
+
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  height: 99%;
+}
+.media i {
+  color: rgb(105, 160, 185);
+  font-size: 3em;
+}
+.media {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  color: teal;
+}
+.media li:hover {
+  transform: rotate(35deg);
+}
+.send input {
+  background-color: rgb(44, 85, 85);
+  width: fit-content;
+  color: rgb(190, 235, 235);
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: black;
+}
+
+@media only screen and (max-width: 900px) {
+  .navlist ul {
+    display: none;
+  }
+  .navlist i {
+    font-size: 2em;
+    display: inline;
+    line-height: 3em;
+  }
+  .text h1 {
+    font-size: 2em;
+  }
+  .text h3 {
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+  .text p {
+    padding-bottom: 2em;
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .Home {
+    width: 100%;
+  }
+  .text {
+    margin-top: 35%;
+  }
+  .myimage img {
+    margin-top: 70%;
+    width: 70%;
+  }
+
+  #test {
+    width: 19em;
+  }
+  .titileabout h2 {
+    font-size: 2.5em;
+  }
+  .AboutMeinfo p {
+    font-size: 1em;
+  }
+
+  .servicestitle h3 {
+    font-size: 2.5em;
+  }
+
+  .services1 h3 {
+    font-size: 1.5;
+  }
+  .services1p {
+    font-size: 1em;
+  }
+  .qualification h3 {
+    font-size: 2em;
+  }
+  .qulificationtitle p {
+    font-size: 1em;
+  }
+  .Projects h3 {
+    font-size: 2em;
+  }
+  .titlefeedback h3 {
+    font-size: 2em;
+  }
+  .imgslider img {
+    width: 100%;
+  }
+  .footertitle h2 {
+    font-size: 2em;
+  }
+  .footerbody {
+    display: flex;
+    flex-direction: column;
+  }
+  .form {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .text h1 {
+    font-size: 1.5em;
+  }
+  .text h3 {
+    padding-bottom: 1em;
+    font-size: 1em;
+  }
+  .text p {
+    padding-bottom: 2em;
+    font-size: 1em;
+  }
+
+  .myimage img {
+    margin-top: 85%;
+  }
+  #test {
+    width: 19em;
+  }
+  .flip-box-back h4 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 230px) {
+  .contact p {
+    font-size: 0.5em;
+  }
+  #test {
+    width: 8em;
+  }
+  .media {
+    flex-direction: column;
+  }
+}
